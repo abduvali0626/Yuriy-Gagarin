@@ -1,0 +1,47 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+button {
+    background-color: #ed7b58;
+    width: 230px;
+    height: 90px;
+    border: none;
+    border-radius: 30px;
+}
+
+
+
+img {
+    top: -250px;
+    width: 100%;
+    position: absolute;
+}
+
+.parent {
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+}
+
+.buttons {
+        position: absolute;
+        left: 100px;
+        bottom: 100px;
+}
+
+button:active {
+    transform: scale(0.9);
+}
